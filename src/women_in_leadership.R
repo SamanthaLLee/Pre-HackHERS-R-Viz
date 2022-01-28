@@ -6,8 +6,13 @@ library(ggplot2)
 library(plotly)
 
 # Load and check data
-data <- read.csv("data/Viz5_August_Female_Political_Representation.csv")
-region_data <- read.csv("data/all.csv")
+
+data <- read.csv("https://raw.githubusercontent.com/SamanthaLLee/Pre-HackHERS-R-Viz/main/data/Viz5_August_Female_Political_Representation.csv")
+region_data <- read.csv("https://raw.githubusercontent.com/SamanthaLLee/Pre-HackHERS-R-Viz/main/data/all.csv")
+
+# Alternate method
+# data <- read.csv("data/Viz5_August_Female_Political_Representation.csv")
+# region_data <- read.csv("data/all.csv")
 
 region_data
 data
