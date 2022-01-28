@@ -2,11 +2,12 @@
 # Install packages
 install.packages("ggplot2", dependencies = TRUE)
 install.packages("plotly", dependencies = TRUE)
+install.packages("knitr", dependencies = TRUE)
 library(ggplot2)
 library(plotly)
+library(knitr)
 
 # Load and check data
-
 data <- read.csv("https://raw.githubusercontent.com/SamanthaLLee/Pre-HackHERS-R-Viz/main/data/Viz5_August_Female_Political_Representation.csv")
 region_data <- read.csv("https://raw.githubusercontent.com/SamanthaLLee/Pre-HackHERS-R-Viz/main/data/all.csv")
 
