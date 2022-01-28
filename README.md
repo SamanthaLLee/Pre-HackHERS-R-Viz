@@ -1,4 +1,4 @@
-# Pre-HackHERS-R-viz
+# Pre-HackHERS-R-Viz
 Pre-HackHERS 2022 Workshop #2: Interactive Data Visualization in R
 
 ## Data used:
